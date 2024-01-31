@@ -10,6 +10,7 @@ if __name__ == "__main__":
         "APK Pure Downloader",
         help="The first result in APKPure search will be downloaded.",
     )
+    st.write("[GitHub](https://github.com/Microwave-WYB/apk_downloader)")
     single_tab, multi_tab = st.tabs(["Single", "Multiple"])
     with single_tab:
         single_download_form = st.form("single_download")
