@@ -45,7 +45,7 @@ def download_single(keywords: str) -> Optional[BinaryIO]:
         keywords (str): Search keywords
 
     Returns:
-        BinaryIO: Downloaded file pointer
+        Optional[BinaryIO]: Downloaded file pointer
     """
     page = SessionPage()
     keywords = "%20".join(keywords.strip().split())
