@@ -37,7 +37,7 @@ def get_file_size(url: str) -> Optional[int]:
     return int(content_length) if content_length is not None else None
 
 
-def download_single(keywords: str) -> BinaryIO:
+def download_single(keywords: str) -> Optional[BinaryIO]:
     """
     Download a single APK from APKPure
 
