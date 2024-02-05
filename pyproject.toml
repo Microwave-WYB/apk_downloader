@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+dependencies = ["requests>=2.31.0", "DrissionPage>=4.0.4.3", "tqdm==4.66.1"]
+name = "apk_downloader"
+version = "2024.2.5"
+description = "An APK downloader"
+authors = [{ "name" = "Yibo Wei", "email" = "david_wyb2001@outlook.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+
+[project.urls]
+Home = "https://github.com/Microwave-WYB/openai_helper"
